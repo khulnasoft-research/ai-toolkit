@@ -118,7 +118,7 @@ This project will use the following stack:
 
 - [Next.js](https://nextjs.org) 14 (App Router)
 - [ AI TOOLKIT ](/docs)
-- [ Vercel AI Gateway ](/providers/ai-toolkit-providers/ai-gateway)
+- [ KhulnaSoft AI Gateway ](/providers/ai-toolkit-providers/ai-gateway)
 - [ Drizzle ORM ](https://orm.drizzle.team)
 - [ Postgres ](https://www.postgresql.org/) with [ pgvector ](https://github.com/pgvector/pgvector)
 - [ shadcn-ui ](https://ui.shadcn.com) and [ TailwindCSS ](https://tailwindcss.com) for styling
@@ -194,12 +194,12 @@ This will first add the `pgvector` extension to your database. Then it will crea
   section](#troubleshooting-migration-error) below.
 </Note>
 
-### Vercel AI Gateway Key
+### KhulnaSoft AI Gateway Key
 
-For this guide, you will need a Vercel AI Gateway API key, which gives you access to hundreds of models from different providers with one API key. If you haven't obtained your Vercel AI Gateway API key, you can do so by [signing up](https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai&title=Go+to+AI+Gateway) on the Vercel website.
+For this guide, you will need a KhulnaSoft AI Gateway API key, which gives you access to hundreds of models from different providers with one API key. If you haven't obtained your KhulnaSoft AI Gateway API key, you can do so by [signing up](https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai&title=Go+to+AI+Gateway) on the Vercel website.
 
 <Note>
-  The AI TOOLKIT's Vercel AI Gateway Provider is the default global provider, so
+  The AI TOOLKIT's KhulnaSoft AI Gateway Provider is the default global provider, so
   you can access models using a simple string in the model configuration. If you
   prefer to use a specific provider like OpenAI directly, see the [provider
   management](/docs/ai-toolkit-core/provider-management) documentation.
@@ -211,7 +211,7 @@ Now, open your `.env` file and add your API Gateway key:
 AI_GATEWAY_API_KEY=your-api-key
 ```
 
-Replace `your-api-key` with your actual Vercel AI Gateway API key.
+Replace `your-api-key` with your actual KhulnaSoft AI Gateway API key.
 
 ## Build
 
@@ -466,7 +466,7 @@ export default function Chat() {
 }
 ```
 
-The `useChat` hook enables the streaming of chat messages from your AI provider (you will be using OpenAI via the Vercel AI Gateway), manages the state for chat input, and updates the UI automatically as new messages are received.
+The `useChat` hook enables the streaming of chat messages from your AI provider (you will be using OpenAI via the KhulnaSoft AI Gateway), manages the state for chat input, and updates the UI automatically as new messages are received.
 
 Run the following command to start the Next.js dev server:
 

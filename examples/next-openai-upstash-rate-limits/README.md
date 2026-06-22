@@ -39,7 +39,7 @@ To run the example locally you need to:
 To learn more about OpenAI, Next.js, and the AI TOOLKIT take a look at the following resources:
 
 - [AI TOOLKIT docs](https://studio.khulnasoft.com/docs)
-- [Vercel AI Playground](https://studio.khulnasoft.com/playground)
+- [KhulnaSoft AI Playground](https://studio.khulnasoft.com/playground)
 - [OpenAI Documentation](https://platform.openai.com/docs) - learn about OpenAI features and API.
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Vercel KV Documentation](https://vercel.com/docs/storage/vercel-kv) - learn about Vercel KV features and API.

@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This file provides context for AI coding assistants (Cursor, GitHub Copilot, Claude Code, etc.) working with the Vercel AI TOOLKIT repository.
+This file provides context for AI coding assistants (Cursor, GitHub Copilot, Claude Code, etc.) working with the KhulnaSoft AI TOOLKIT repository.
 
 ## Project Overview
 
@@ -161,7 +161,7 @@ Errors extend `AITOOLKITError` from `@ai-toolkit/provider` and use a marker patt
 import { AITOOLKITError } from '@ai-toolkit/provider';
 
 const name = 'AI_MyError';
-const marker = `vercel.ai.error.${name}`;
+const marker = `khulnasoft.ai.error.${name}`;
 const symbol = Symbol.for(marker);
 
 export class MyError extends AITOOLKITError {

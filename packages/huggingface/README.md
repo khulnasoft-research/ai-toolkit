@@ -1,6 +1,6 @@
-# Vercel AI TOOLKIT - Hugging Face Provider
+# KhulnaSoft AI TOOLKIT - Hugging Face Provider
 
-The **[Hugging Face Inference Providers](https://huggingface.co/docs/inference-providers/index)** for the [Vercel AI TOOLKIT](https://studio.khulnasoft.com/docs) contains language model support for thousands of models through multiple inference providers via the Hugging Face router API.
+The **[Hugging Face Inference Providers](https://huggingface.co/docs/inference-providers/index)** for the [KhulnaSoft AI TOOLKIT](https://studio.khulnasoft.com/docs) contains language model support for thousands of models through multiple inference providers via the Hugging Face router API.
 
 ## Setup
 

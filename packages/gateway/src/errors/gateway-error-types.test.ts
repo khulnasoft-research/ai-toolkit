@@ -242,9 +242,9 @@ describe('Cross-realm instance checking', () => {
     const error = new GatewayAuthenticationError();
 
     // Simulate different realm by creating a new instance in different context
-    const gatewayErrorMarker = Symbol.for('vercel.ai.gateway.error');
+    const gatewayErrorMarker = Symbol.for('khulnasoft.ai.gateway.error');
     const authErrorMarker = Symbol.for(
-      'vercel.ai.gateway.error.GatewayAuthenticationError',
+      'khulnasoft.ai.gateway.error.GatewayAuthenticationError',
     );
 
     // Verify the symbols are present

@@ -1,7 +1,7 @@
 import { AITOOLKITError, NoSuchModelError } from '@ai-toolkit/provider';
 
 const name = 'AI_NoSuchProviderError';
-const marker = `vercel.ai.error.${name}`;
+const marker = `khulnasoft.ai.error.${name}`;
 const symbol = Symbol.for(marker);
 
 export class NoSuchProviderError extends NoSuchModelError {

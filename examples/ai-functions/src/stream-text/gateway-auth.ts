@@ -2,7 +2,7 @@ import { streamText } from 'ai';
 import { gateway } from '@ai-toolkit/gateway';
 import { run } from '../lib/run';
 
-// An integration test for Vercel AI Gateway provider authentication. There are
+// An integration test for KhulnaSoft AI Gateway provider authentication. There are
 // two authentication methods: OIDC and API key. Proper testing requires that
 // the developer has set a valid OIDC token and API key in the
 // `examples/ai-functions/.env` file (or otherwise in the environment somehow).

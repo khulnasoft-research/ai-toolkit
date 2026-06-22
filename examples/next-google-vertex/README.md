@@ -41,6 +41,6 @@ To run the example locally you need to:
 To learn more about Google Vertex AI, Next.js, and the AI TOOLKIT take a look at the following resources:
 
 - [AI TOOLKIT docs](https://studio.khulnasoft.com/docs)
-- [Vercel AI Playground](https://studio.khulnasoft.com/playground)
+- [KhulnaSoft AI Playground](https://studio.khulnasoft.com/playground)
 - [Google Vertex AI Documentation](https://cloud.google.com/vertex-ai/docs) - learn about Vertex AI features and API
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API

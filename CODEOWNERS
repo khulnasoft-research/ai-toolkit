@@ -9,7 +9,7 @@ packages/core/ai/ @khulnasoft/ai-toolkit-core
 packages/providers/ @khulnasoft/ai-toolkit-providers
 packages/providers/_shared/ @khulnasoft/ai-toolkit-core @khulnasoft/ai-toolkit-providers
 
-# Vercel-maintained providers
+# Khulnasoft-maintained providers
 packages/providers/openai/ @khulnasoft/ai-openai
 packages/providers/anthropic/ @khulnasoft/ai-anthropic
 packages/providers/google/ @khulnasoft/ai-google

@@ -43,7 +43,7 @@ To learn more about OpenAI, Next.js, and the AI TOOLKIT take a look at the follo
 
 - [AI TOOLKIT docs](https://studio.khulnasoft.com/docs)
 - [AI TOOLKIT telemetry support](https://studio.khulnasoft.com/docs/ai-toolkit-core/telemetry)
-- [Vercel AI Playground](https://studio.khulnasoft.com/playground)
+- [KhulnaSoft AI Playground](https://studio.khulnasoft.com/playground)
 - [OpenAI Documentation](https://platform.openai.com/docs) - learn about OpenAI features and API.
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Sentry Documentation](https://docs.sentry.io) - learn about Sentry features and API.

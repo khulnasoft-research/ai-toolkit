@@ -2,7 +2,7 @@ import { AITOOLKITError } from '@ai-toolkit/provider';
 import { SingleRequestTextStreamPart } from '../generate-text/run-tools-transformation';
 
 const name = 'AI_InvalidStreamPartError';
-const marker = `vercel.ai.error.${name}`;
+const marker = `khulnasoft.ai.error.${name}`;
 const symbol = Symbol.for(marker);
 
 export class InvalidStreamPartError extends AITOOLKITError {

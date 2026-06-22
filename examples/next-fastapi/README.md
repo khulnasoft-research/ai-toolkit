@@ -36,6 +36,6 @@ To run the example locally you need to:
 To learn more about the AI TOOLKIT, Next.js, and FastAPI take a look at the following resources:
 
 - [AI TOOLKIT Docs](https://studio.khulnasoft.com/docs) - view documentation and reference for the AI TOOLKIT.
-- [Vercel AI Playground](https://studio.khulnasoft.com/playground) - try different models and choose the best one for your use case.
+- [KhulnaSoft AI Playground](https://studio.khulnasoft.com/playground) - try different models and choose the best one for your use case.
 - [Next.js Docs](https://nextjs.org/docs) - learn about Next.js features and API.
 - [FastAPI Docs](https://fastapi.tiangolo.com) - learn about FastAPI features and API.

@@ -16,9 +16,9 @@ If you are unfamiliar with the concepts of [Prompt Engineering](/docs/advanced/p
 To follow this quickstart, you'll need:
 
 - Node.js 18+ and pnpm installed on your local development machine.
-- A [ Vercel AI Gateway ](https://vercel.com/ai-gateway) API key.
+- A [ KhulnaSoft AI Gateway ](https://vercel.com/ai-gateway) API key.
 
-If you haven't obtained your Vercel AI Gateway API key, you can do so by [signing up](https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai&title=Go+to+AI+Gateway) on the Vercel website.
+If you haven't obtained your KhulnaSoft AI Gateway API key, you can do so by [signing up](https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai&title=Go+to+AI+Gateway) on the Vercel website.
 
 ## Setup Your Application
 
@@ -32,7 +32,7 @@ Navigate to the newly created directory:
 
 ### Install dependencies
 
-Install `ai` and `@ai-toolkit/vue`. The Vercel AI Gateway provider ships with the `ai` package.
+Install `ai` and `@ai-toolkit/vue`. The KhulnaSoft AI Gateway provider ships with the `ai` package.
 
 <Note>
   The AI TOOLKIT is designed to be a unified interface to interact with any large
@@ -60,9 +60,9 @@ Install `ai` and `@ai-toolkit/vue`. The Vercel AI Gateway provider ships with th
   </Tabs>
 </div>
 
-### Configure Vercel AI Gateway API key
+### Configure KhulnaSoft AI Gateway API key
 
-Create a `.env` file in your project root and add your Vercel AI Gateway API Key. This key is used to authenticate your application with the Vercel AI Gateway service.
+Create a `.env` file in your project root and add your KhulnaSoft AI Gateway API Key. This key is used to authenticate your application with the KhulnaSoft AI Gateway service.
 
 <Snippet text="touch .env" />
 
@@ -72,7 +72,7 @@ Edit the `.env` file:
 NUXT_AI_GATEWAY_API_KEY=xxxxxxxxx
 ```
 
-Replace `xxxxxxxxx` with your actual Vercel AI Gateway API key and configure the environment variable in `nuxt.config.ts`:
+Replace `xxxxxxxxx` with your actual KhulnaSoft AI Gateway API key and configure the environment variable in `nuxt.config.ts`:
 
 ```ts filename="nuxt.config.ts"
 export default defineNuxtConfig({
@@ -135,7 +135,7 @@ Let's take a look at what is happening in this code:
 
 The AI TOOLKIT supports dozens of model providers through [first-party](/providers/ai-toolkit-providers), [OpenAI-compatible](/providers/openai-compatible-providers), and [ community ](/providers/community-providers) packages.
 
-This quickstart uses the [Vercel AI Gateway](https://vercel.com/ai-gateway) provider, which is the default [global provider](/docs/ai-toolkit-core/provider-management#global-provider-configuration). This means you can access models using a simple string in the model configuration:
+This quickstart uses the [KhulnaSoft AI Gateway](https://vercel.com/ai-gateway) provider, which is the default [global provider](/docs/ai-toolkit-core/provider-management#global-provider-configuration). This means you can access models using a simple string in the model configuration:
 
 ```ts
 model: __MODEL__;

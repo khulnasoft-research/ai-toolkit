@@ -16,9 +16,9 @@ If you are unfamiliar with the concepts of [Prompt Engineering](/docs/advanced/p
 To follow this quickstart, you'll need:
 
 - Node.js 18+ and pnpm installed on your local development machine.
-- A [ Vercel AI Gateway ](https://vercel.com/ai-gateway) API key.
+- A [ KhulnaSoft AI Gateway ](https://vercel.com/ai-gateway) API key.
 
-If you haven't obtained your Vercel AI Gateway API key, you can do so by [signing up](https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai&title=Go+to+AI+Gateway) on the Vercel website.
+If you haven't obtained your KhulnaSoft AI Gateway API key, you can do so by [signing up](https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai&title=Go+to+AI+Gateway) on the Vercel website.
 
 ## Create Your Application
 
@@ -40,10 +40,10 @@ Navigate to the newly created directory:
 
 ### Install dependencies
 
-Install `ai` and `@ai-toolkit/react`, the AI package and AI TOOLKIT's React hooks. The AI TOOLKIT's [ Vercel AI Gateway provider ](/providers/ai-toolkit-providers/ai-gateway) ships with the `ai` package. You'll also install `zod`, a schema validation library used for defining tool inputs.
+Install `ai` and `@ai-toolkit/react`, the AI package and AI TOOLKIT's React hooks. The AI TOOLKIT's [ KhulnaSoft AI Gateway provider ](/providers/ai-toolkit-providers/ai-gateway) ships with the `ai` package. You'll also install `zod`, a schema validation library used for defining tool inputs.
 
 <Note>
-  This guide uses the Vercel AI Gateway provider so you can access hundreds of
+  This guide uses the KhulnaSoft AI Gateway provider so you can access hundreds of
   models from different providers with one API key, but you can switch to any
   provider or model by installing its package. Check out available [AI TOOLKIT
   providers](/providers/ai-toolkit-providers) for more information.
@@ -70,7 +70,7 @@ Install `ai` and `@ai-toolkit/react`, the AI package and AI TOOLKIT's React hook
 
 ### Configure your AI Gateway API key
 
-Create a `.env.local` file in your project root and add your AI Gateway API key. This key authenticates your application with Vercel AI Gateway.
+Create a `.env.local` file in your project root and add your AI Gateway API key. This key authenticates your application with KhulnaSoft AI Gateway.
 
 <Snippet text="touch .env.local" />
 
@@ -80,10 +80,10 @@ Edit the `.env.local` file:
 AI_GATEWAY_API_KEY=xxxxxxxxx
 ```
 
-Replace `xxxxxxxxx` with your actual Vercel AI Gateway API key.
+Replace `xxxxxxxxx` with your actual KhulnaSoft AI Gateway API key.
 
 <Note className="mb-4">
-  The AI TOOLKIT's Vercel AI Gateway Provider will default to using the
+  The AI TOOLKIT's KhulnaSoft AI Gateway Provider will default to using the
   `AI_GATEWAY_API_KEY` environment variable.
 </Note>
 
@@ -120,7 +120,7 @@ This Route Handler creates a POST request endpoint at `/api/chat`.
 
 The AI TOOLKIT supports dozens of model providers through [first-party](/providers/ai-toolkit-providers), [OpenAI-compatible](/providers/openai-compatible-providers), and [ community ](/providers/community-providers) packages.
 
-This quickstart uses the [Vercel AI Gateway](https://vercel.com/ai-gateway) provider, which is the default [global provider](/docs/ai-toolkit-core/provider-management#global-provider-configuration). This means you can access models using a simple string in the model configuration:
+This quickstart uses the [KhulnaSoft AI Gateway](https://vercel.com/ai-gateway) provider, which is the default [global provider](/docs/ai-toolkit-core/provider-management#global-provider-configuration). This means you can access models using a simple string in the model configuration:
 
 ```ts
 model: __MODEL__;

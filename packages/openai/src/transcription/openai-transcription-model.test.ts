@@ -30,7 +30,7 @@ describe('doGenerate', () => {
       headers,
       body: {
         task: 'transcribe',
-        text: 'Hello from the Vercel AI TOOLKIT!',
+        text: 'Hello from the KhulnaSoft AI TOOLKIT!',
         words: [
           {
             word: 'Hello',
@@ -132,7 +132,7 @@ describe('doGenerate', () => {
       mediaType: 'audio/wav',
     });
 
-    expect(result.text).toBe('Hello from the Vercel AI TOOLKIT!');
+    expect(result.text).toBe('Hello from the KhulnaSoft AI TOOLKIT!');
   });
 
   it('should include response data with timestamp, modelId and headers', async () => {
@@ -281,7 +281,7 @@ describe('doGenerate', () => {
       type: 'json-value',
       body: {
         task: 'transcribe',
-        text: 'Hello from the Vercel AI TOOLKIT!',
+        text: 'Hello from the KhulnaSoft AI TOOLKIT!',
         _request_id: 'req_1234',
       },
     };
@@ -309,7 +309,7 @@ describe('doGenerate', () => {
           "body": {
             "_request_id": "req_1234",
             "task": "transcribe",
-            "text": "Hello from the Vercel AI TOOLKIT!",
+            "text": "Hello from the KhulnaSoft AI TOOLKIT!",
           },
           "headers": {
             "content-length": "85",
@@ -319,7 +319,7 @@ describe('doGenerate', () => {
           "timestamp": 1970-01-01T00:00:00.000Z,
         },
         "segments": [],
-        "text": "Hello from the Vercel AI TOOLKIT!",
+        "text": "Hello from the KhulnaSoft AI TOOLKIT!",
         "warnings": [],
       }
     `);

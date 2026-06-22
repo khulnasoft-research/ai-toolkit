@@ -2,7 +2,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Please go to Vercel Community
+        # Please go to Khulnasoft Community
         > [!IMPORTANT]
         > **New Discussions in this repo are no longer actively monitored and will be automatically closed.**
         > **Please join us at [community.vercel.com/ai-toolkit](https://community.vercel.com/ai-toolkit).**

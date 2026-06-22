@@ -10,12 +10,12 @@ import {
   withoutTrailingSlash,
   withUserAgentSuffix,
 } from '@ai-toolkit/provider-utils';
-import { VercelChatModelId } from './vercel-chat-options';
+import { KhulnasoftChatModelId } from './vercel-chat-options';
 import { VERSION } from './version';
 
 export interface VercelProviderSettings {
   /**
-Vercel API key.
+KhulnaSoft API key.
 */
   apiKey?: string;
   /**
@@ -37,12 +37,12 @@ export interface VercelProvider extends ProviderV3 {
   /**
 Creates a model for text generation.
 */
-  (modelId: VercelChatModelId): LanguageModelV3;
+  (modelId: KhulnasoftChatModelId): LanguageModelV3;
 
   /**
 Creates a language model for text generation.
 */
-  languageModel(modelId: VercelChatModelId): LanguageModelV3;
+  languageModel(modelId: KhulnasoftChatModelId): LanguageModelV3;
 
   /**
    * @deprecated Use `embeddingModel` instead.
@@ -83,13 +83,13 @@ export function createVercel(
     fetch: options.fetch,
   });
 
-  const createChatModel = (modelId: VercelChatModelId) => {
+  const createChatModel = (modelId: KhulnasoftChatModelId) => {
     return new OpenAICompatibleChatLanguageModel(modelId, {
       ...getCommonModelConfig('chat'),
     });
   };
 
-  const provider = (modelId: VercelChatModelId) => createChatModel(modelId);
+  const provider = (modelId: KhulnasoftChatModelId) => createChatModel(modelId);
 
   provider.specificationVersion = 'v3' as const;
   provider.languageModel = createChatModel;

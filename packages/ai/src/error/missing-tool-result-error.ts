@@ -1,7 +1,7 @@
 import { AITOOLKITError } from '@ai-toolkit/provider';
 
 const name = 'AI_MissingToolResultsError';
-const marker = `vercel.ai.error.${name}`;
+const marker = `khulnasoft.ai.error.${name}`;
 const symbol = Symbol.for(marker);
 
 export class MissingToolResultsError extends AITOOLKITError {

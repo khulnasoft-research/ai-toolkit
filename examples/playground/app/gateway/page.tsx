@@ -158,13 +158,12 @@ export default function GatewayPage() {
               >
                 Try the Playground
                 <ArrowRight
-                  className={`ml-2 h-5 w-5 transition-transform ${
-                    isHoveringTry ? 'translate-x-1' : ''
-                  }`}
+                  className={`ml-2 h-5 w-5 transition-transform ${isHoveringTry ? 'translate-x-1' : ''
+                    }`}
                 />
               </Button>
             </Link>
-            <Link href="https://github.com/vercel/ai">
+            <Link href="https://github.com/khulnasoft/ai-toolkit">
               <Button variant="outline" size="lg" className="text-lg px-8 py-6">
                 View on GitHub
               </Button>

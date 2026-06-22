@@ -348,7 +348,7 @@ For most LangGraph applications, `graph.stream()` with appropriate `streamMode` 
 To learn more about LangChain, LangGraph, OpenAI, Next.js, and the AI TOOLKIT take a look at the following resources:
 
 - [AI TOOLKIT docs](https://studio.khulnasoft.com/docs) - learn more about the AI TOOLKIT
-- [Vercel AI Playground](https://studio.khulnasoft.com/playground) - compare and tune 20+ AI models side-by-side
+- [KhulnaSoft AI Playground](https://studio.khulnasoft.com/playground) - compare and tune 20+ AI models side-by-side
 - [LangChain Documentation](https://js.langchain.com/docs) - learn about LangChain
 - [LangGraph Documentation](https://langchain-ai.github.io/langgraph/) - learn about LangGraph
 - [LangSmith Documentation](https://docs.smith.langchain.com/) - learn about LangSmith deployments

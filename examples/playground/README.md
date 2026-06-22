@@ -1,6 +1,6 @@
 # AI Toolkit Playground
 
-An interactive web-based playground for experimenting with AI models and providers using the Vercel AI Toolkit.
+An interactive web-based playground for experimenting with AI models and providers using the KhulnaSoft AI Toolkit.
 
 ## Features
 

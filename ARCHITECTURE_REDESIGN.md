@@ -259,7 +259,7 @@ ai-toolkit/
 # SPECIAL PURPOSE PACKAGES
 # ============================================================
 ├── packages/special/
-│   ├── gateway/                            # @ai-sdk/gateway (Vercel AI Gateway)
+│   ├── gateway/                            # @ai-sdk/gateway (KhulnaSoft AI Gateway)
 │   │   ├── src/
 │   │   └── package.json
 │   │
@@ -1135,7 +1135,7 @@ packages/core/telemetry/ @vercel/ai-sdk-core @vercel/devops-team
 # ===== PROVIDER LAYER =====
 packages/providers/ @vercel/ai-sdk-providers
 
-# Vercel-maintained providers
+# Khulnasoft-maintained providers
 packages/providers/openai/ @vercel/ai-openai
 packages/providers/anthropic/ @vercel/ai-anthropic
 packages/providers/google-vertex/ @vercel/ai-google

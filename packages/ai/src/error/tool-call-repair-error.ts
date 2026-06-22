@@ -3,7 +3,7 @@ import { InvalidToolInputError } from './invalid-tool-input-error';
 import { NoSuchToolError } from './no-such-tool-error';
 
 const name = 'AI_ToolCallRepairError';
-const marker = `vercel.ai.error.${name}`;
+const marker = `khulnasoft.ai.error.${name}`;
 const symbol = Symbol.for(marker);
 
 export class ToolCallRepairError extends AITOOLKITError {

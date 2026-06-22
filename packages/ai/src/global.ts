@@ -7,7 +7,7 @@ declare global {
    * The default provider to use for the AI TOOLKIT.
    * String model ids are resolved to the default provider and model id.
    *
-   * If not set, the default provider is the Vercel AI gateway provider.
+   * If not set, the default provider is the KhulnaSoft AI gateway provider.
    *
    * @see https://studio.khulnasoft.com/docs/ai-toolkit-core/provider-management#global-provider-configuration
    */

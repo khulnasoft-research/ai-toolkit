@@ -54,8 +54,8 @@ const gatewayProviderOptions = lazySchema(() =>
         .optional(),
       /**
        * Whether to filter by only providers that state they have zero data
-       * retention with Vercel AI Gateway. When enabled, only providers that
-       * have agreements with Vercel AI Gateway for zero data retention will be
+       * retention with KhulnaSoft AI Gateway. When enabled, only providers that
+       * have agreements with KhulnaSoft AI Gateway for zero data retention will be
        * used.
        */
       zeroDataRetention: z.boolean().optional(),

@@ -83,7 +83,7 @@ jobs:
               },
               "required": ["labels", "confidence", "reasoning"]
             }
-          system: You are an expert software engineer working on classifying GitHub issues for the Vercel AI TOOLKIT repository. Your task is to analyze the content of each issue and determine which labels should be assigned.
+          system: You are an expert software engineer working on classifying GitHub issues for the KhulnaSoft AI TOOLKIT repository. Your task is to analyze the content of each issue and determine which labels should be assigned.
           prompt: |
             First find out which category label the issue should be assigned. If the category label should be "ai/provider", then also determine which specific provider labels are relevant based on the issue content.
 
@@ -232,7 +232,7 @@ jobs:
               },
               "required": ["labels", "confidence", "reasoning"]
             }
-          system: You are an expert software engineer working on classifying GitHub issues for the Vercel AI TOOLKIT repository. Your task is to analyze the content of each issue and determine which labels should be assigned.
+          system: You are an expert software engineer working on classifying GitHub issues for the KhulnaSoft AI TOOLKIT repository. Your task is to analyze the content of each issue and determine which labels should be assigned.
           prompt: |
             First find out which category label the issue should be assigned. If the category label should be "ai/provider", then also determine which specific provider labels are relevant based on the issue content.
 

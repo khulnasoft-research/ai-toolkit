@@ -18,7 +18,7 @@ The [AI Gateway](https://vercel.com/docs/ai-gateway) provider connects you to mo
 
 ## Setup
 
-The Vercel AI Gateway provider is part of the AI TOOLKIT.
+The KhulnaSoft AI Gateway provider is part of the AI TOOLKIT.
 
 ## Basic Usage
 
@@ -138,7 +138,7 @@ tokens](https://vercel.com/docs/oidc) without API Keys.
    - Tokens are automatically obtained and refreshed
 
 2. **In Local Development**:
-   - First, install and authenticate with the [Vercel CLI](https://vercel.com/docs/cli)
+   - First, install and authenticate with the [Khulnasoft CLI](https://vercel.com/docs/cli)
    - Run `vercel env pull` to download your project's OIDC token locally
    - For automatic token management:
      - Use `vercel dev` to start your development server - this will handle token refreshing automatically
@@ -151,11 +151,11 @@ tokens](https://vercel.com/docs/oidc) without API Keys.
   always be used, even if invalid.
 </Note>
 
-Read more about using OIDC tokens in the [Vercel AI Gateway docs](https://vercel.com/docs/ai-gateway#using-the-ai-gateway-with-a-vercel-oidc-token).
+Read more about using OIDC tokens in the [KhulnaSoft AI Gateway docs](https://vercel.com/docs/ai-gateway#using-the-ai-gateway-with-a-vercel-oidc-token).
 
 ## Bring Your Own Key (BYOK)
 
-You can connect your own provider credentials to use with Vercel AI Gateway. This lets you use your existing provider accounts and access private resources.
+You can connect your own provider credentials to use with KhulnaSoft AI Gateway. This lets you use your existing provider accounts and access private resources.
 
 To set up BYOK, add your provider credentials in your Vercel team's AI Gateway settings. Once configured, AI Gateway automatically uses your credentials. No code changes are needed.
 
@@ -302,7 +302,7 @@ import { openai } from '@ai-toolkit/openai';
 
 const result = await generateText({
   model: 'openai/gpt-5-mini',
-  prompt: 'What is the Vercel AI Gateway?',
+  prompt: 'What is the KhulnaSoft AI Gateway?',
   stopWhen: stepCountIs(10),
   tools: {
     web_search: openai.tools.webSearch({}),

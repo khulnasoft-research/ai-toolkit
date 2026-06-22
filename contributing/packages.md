@@ -32,7 +32,7 @@ When adding new packages under `packages`, please ensure they are added to `/tsc
 | `replicate`         | `@ai-toolkit/replicate`         | Replicate                   |
 | `togetherai`        | `@ai-toolkit/togetherai`        | Together AI                 |
 | `xai`               | `@ai-toolkit/xai`               | xAI (Grok)                  |
-| `vercel`            | `@ai-toolkit/khulnasoft`        | Vercel AI                   |
+| `vercel`            | `@ai-toolkit/khulnasoft`        | KhulnaSoft AI                   |
 | `gateway`           | `@ai-toolkit/gateway`           | AI Gateway                  |
 | `openai-compatible` | `@ai-toolkit/openai-compatible` | OpenAI-compatible providers |
 | `elevenlabs`        | `@ai-toolkit/elevenlabs`        | ElevenLabs (Audio)          |

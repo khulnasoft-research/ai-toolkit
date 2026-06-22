@@ -69,7 +69,7 @@ export function MobileNav() {
           </nav>
           <div className="p-4 pt-0 border-t border-[var(--border)] mt-2">
             <a
-              href="https://sdk.vercel.ai/docs"
+              href="https://sdk.khulnasoft.ai/docs"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 text-sm text-[var(--foreground-secondary)] hover:text-[var(--foreground)]"

@@ -2,7 +2,7 @@ import { AITOOLKITError } from '@ai-toolkit/provider';
 import { UIMessage } from '../ui/ui-messages';
 
 const name = 'AI_MessageConversionError';
-const marker = `vercel.ai.error.${name}`;
+const marker = `khulnasoft.ai.error.${name}`;
 const symbol = Symbol.for(marker);
 
 export class MessageConversionError extends AITOOLKITError {
